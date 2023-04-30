@@ -1,7 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:canon/app/app.logger.dart';
-import 'package:canon/constants/app_keys.dart';
-import 'package:canon/models/appuser.dart';
+import 'package:medicine/app/app.logger.dart';
+import 'package:medicine/constants/app_keys.dart';
+import 'package:medicine/models/appuser.dart';
 
 const tokenDocId = "doctor_token";
 

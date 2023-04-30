@@ -1,9 +1,9 @@
-import 'package:canon/app/app.dialogs.dart';
-import 'package:canon/app/app.locator.dart';
-import 'package:canon/app/app.logger.dart';
-import 'package:canon/app/app.router.dart';
-import 'package:canon/models/appuser.dart';
-import 'package:canon/services/user_service.dart';
+import 'package:medicine/app/app.dialogs.dart';
+import 'package:medicine/app/app.locator.dart';
+import 'package:medicine/app/app.logger.dart';
+import 'package:medicine/app/app.router.dart';
+import 'package:medicine/models/appuser.dart';
+import 'package:medicine/services/user_service.dart';
 import 'package:stacked/stacked.dart';
 import 'package:stacked_services/stacked_services.dart';
 

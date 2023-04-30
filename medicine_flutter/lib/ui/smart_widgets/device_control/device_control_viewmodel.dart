@@ -1,9 +1,9 @@
 import 'dart:async';
 
-import 'package:canon/app/app.locator.dart';
-import 'package:canon/app/app.logger.dart';
-import 'package:canon/models/device.dart';
-import 'package:canon/services/rtdb_service.dart';
+import 'package:medicine/app/app.locator.dart';
+import 'package:medicine/app/app.logger.dart';
+import 'package:medicine/models/device.dart';
+import 'package:medicine/services/rtdb_service.dart';
 import 'package:stacked/stacked.dart';
 
 class DeviceControlViewModel extends ReactiveViewModel {

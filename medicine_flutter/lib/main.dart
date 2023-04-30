@@ -1,10 +1,10 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:canon/app/app.bottomsheets.dart';
-import 'package:canon/app/app.dialogs.dart';
-import 'package:canon/app/app.locator.dart';
-import 'package:canon/app/app.router.dart';
-import 'package:canon/ui/common/app_colors.dart';
+import 'package:medicine/app/app.bottomsheets.dart';
+import 'package:medicine/app/app.dialogs.dart';
+import 'package:medicine/app/app.locator.dart';
+import 'package:medicine/app/app.router.dart';
+import 'package:medicine/ui/common/app_colors.dart';
 import 'package:flutter/services.dart';
 import 'package:stacked_services/stacked_services.dart';
 import 'firebase_options.dart';

@@ -44,40 +44,44 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyDxVxWzk8Xhhh8F0M5jDwO1At07HGLSqos',
-    appId: '1:557638764824:web:65850ecca31e5b4fadb66d',
-    messagingSenderId: '557638764824',
-    projectId: 'canon-6b776',
-    authDomain: 'canon-6b776.firebaseapp.com',
-    storageBucket: 'canon-6b776.appspot.com',
-    measurementId: 'G-5K9NGQBBBJ',
+    apiKey: 'AIzaSyBoU0q5WTFkn3cdW1AOIhEM00Y52D4RE5E',
+    appId: '1:415548333011:web:07868b76bead3d845bad26',
+    messagingSenderId: '415548333011',
+    projectId: 'smart-medical-caddy',
+    authDomain: 'smart-medical-caddy.firebaseapp.com',
+    databaseURL: 'https://smart-medical-caddy-default-rtdb.asia-southeast1.firebasedatabase.app',
+    storageBucket: 'smart-medical-caddy.appspot.com',
+    measurementId: 'G-KD43P04W2Y',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyAPftjEYwuGnrDGUubFJmAkohMD7p4bObY',
-    appId: '1:557638764824:android:fc881afbebf6c3daadb66d',
-    messagingSenderId: '557638764824',
-    projectId: 'canon-6b776',
-    storageBucket: 'canon-6b776.appspot.com',
+    apiKey: 'AIzaSyAPDaEJlY0Amkz-PLpyMDvgO7YaFhc7Rfo',
+    appId: '1:415548333011:android:01e5fc33ba31943a5bad26',
+    messagingSenderId: '415548333011',
+    projectId: 'smart-medical-caddy',
+    databaseURL: 'https://smart-medical-caddy-default-rtdb.asia-southeast1.firebasedatabase.app',
+    storageBucket: 'smart-medical-caddy.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBG-eybUTuW10XL1v_MOBxy7bAcSc_5sy8',
-    appId: '1:557638764824:ios:5af88a07f4afd6e3adb66d',
-    messagingSenderId: '557638764824',
-    projectId: 'canon-6b776',
-    storageBucket: 'canon-6b776.appspot.com',
-    iosClientId: '557638764824-qv0kal72m6qrikiocmfpufhqme7kc78b.apps.googleusercontent.com',
-    iosBundleId: 'com.example.secretApp',
+    apiKey: 'AIzaSyA7SjR0S2tug76CESPx_-QoegKJElLHHpE',
+    appId: '1:415548333011:ios:76e51a31dcfe73e65bad26',
+    messagingSenderId: '415548333011',
+    projectId: 'smart-medical-caddy',
+    databaseURL: 'https://smart-medical-caddy-default-rtdb.asia-southeast1.firebasedatabase.app',
+    storageBucket: 'smart-medical-caddy.appspot.com',
+    iosClientId: '415548333011-0b389ro49e4q3juqsnvrn4ucs5qrbpnr.apps.googleusercontent.com',
+    iosBundleId: 'com.example.medicine',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyBG-eybUTuW10XL1v_MOBxy7bAcSc_5sy8',
-    appId: '1:557638764824:ios:5af88a07f4afd6e3adb66d',
-    messagingSenderId: '557638764824',
-    projectId: 'canon-6b776',
-    storageBucket: 'canon-6b776.appspot.com',
-    iosClientId: '557638764824-qv0kal72m6qrikiocmfpufhqme7kc78b.apps.googleusercontent.com',
-    iosBundleId: 'com.example.secretApp',
+    apiKey: 'AIzaSyA7SjR0S2tug76CESPx_-QoegKJElLHHpE',
+    appId: '1:415548333011:ios:76e51a31dcfe73e65bad26',
+    messagingSenderId: '415548333011',
+    projectId: 'smart-medical-caddy',
+    databaseURL: 'https://smart-medical-caddy-default-rtdb.asia-southeast1.firebasedatabase.app',
+    storageBucket: 'smart-medical-caddy.appspot.com',
+    iosClientId: '415548333011-0b389ro49e4q3juqsnvrn4ucs5qrbpnr.apps.googleusercontent.com',
+    iosBundleId: 'com.example.medicine',
   );
 }

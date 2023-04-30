@@ -1,7 +1,7 @@
-import 'package:canon/app/app.locator.dart';
-import 'package:canon/app/app.logger.dart';
-import 'package:canon/models/appuser.dart';
-import 'package:canon/services/firestore_service.dart';
+import 'package:medicine/app/app.locator.dart';
+import 'package:medicine/app/app.logger.dart';
+import 'package:medicine/models/appuser.dart';
+import 'package:medicine/services/firestore_service.dart';
 import 'package:stacked_firebase_auth/stacked_firebase_auth.dart';
 
 class UserService {

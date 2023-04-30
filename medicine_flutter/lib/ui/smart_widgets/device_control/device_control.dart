@@ -1,4 +1,4 @@
-import 'package:canon/ui/smart_widgets/online_status/online_status.dart';
+import 'package:medicine/ui/smart_widgets/online_status/online_status.dart';
 import 'package:flutter/material.dart';
 import 'package:stacked/stacked.dart';
 

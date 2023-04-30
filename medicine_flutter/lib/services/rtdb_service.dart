@@ -1,4 +1,4 @@
-import 'package:canon/app/app.logger.dart';
+import 'package:medicine/app/app.logger.dart';
 import 'package:firebase_database/firebase_database.dart';
 import 'package:stacked/stacked.dart';
 
@@ -13,20 +13,18 @@ class RtdbService with ListenableServiceMixin {
   DeviceReading? get node => _node;
 
   void setupNodeListening() {
-    DatabaseReference starCountRef =
-        _db.ref('/devices/ZOwTznCeIFgibFTx4cTfCiB8WOs1/reading');
+    DatabaseReference starCountRef = _db.ref('/device/reading/');
     starCountRef.onValue.listen((DatabaseEvent event) {
       if (event.snapshot.exists) {
         _node = DeviceReading.fromMap(event.snapshot.value as Map);
-        // log.v(_node?.lastSeen); //data['time']
+        log.v(_node?.lastSeen); //data['time']
         notifyListeners();
       }
     });
   }
 
   Future<DeviceData?> getDeviceData() async {
-    DatabaseReference dataRef =
-        _db.ref('/devices/ZOwTznCeIFgibFTx4cTfCiB8WOs1/data');
+    DatabaseReference dataRef = _db.ref('/device/data/');
     final value = await dataRef.once();
     if (value.snapshot.exists) {
       return DeviceData.fromMap(value.snapshot.value as Map);
@@ -36,8 +34,7 @@ class RtdbService with ListenableServiceMixin {
 
   void setDeviceData(DeviceData data) {
     log.i("Setting device data");
-    DatabaseReference dataRef =
-        _db.ref('/devices/ZOwTznCeIFgibFTx4cTfCiB8WOs1/data');
+    DatabaseReference dataRef = _db.ref('/device/data');
     dataRef.update(data.toJson());
   }
 }

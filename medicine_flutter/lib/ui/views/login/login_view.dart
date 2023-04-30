@@ -1,5 +1,5 @@
-import 'package:canon/constants/validators.dart';
-import 'package:canon/ui/widgets/customButton.dart';
+import 'package:medicine/constants/validators.dart';
+import 'package:medicine/ui/widgets/customButton.dart';
 import 'package:flutter/material.dart';
 import 'package:stacked/stacked.dart';
 import 'package:stacked/stacked_annotations.dart';

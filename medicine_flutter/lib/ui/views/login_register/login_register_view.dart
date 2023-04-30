@@ -1,4 +1,4 @@
-import 'package:canon/ui/widgets/loginRegister.dart';
+import 'package:medicine/ui/widgets/loginRegister.dart';
 import 'package:flutter/material.dart';
 import 'package:stacked/stacked.dart';
 

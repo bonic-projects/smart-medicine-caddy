@@ -1,5 +1,5 @@
-import 'package:canon/ui/widgets/customButton.dart';
-import 'package:canon/ui/widgets/option.dart';
+import 'package:medicine/ui/widgets/customButton.dart';
+import 'package:medicine/ui/widgets/option.dart';
 import 'package:flutter/material.dart';
 
 class LoginRegisterWidget extends StatelessWidget {

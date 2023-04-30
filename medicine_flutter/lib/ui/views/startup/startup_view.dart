@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
 import 'package:stacked/stacked.dart';
-import 'package:canon/ui/common/ui_helpers.dart';
+import 'package:medicine/ui/common/ui_helpers.dart';
 
 import 'startup_viewmodel.dart';
 
@@ -20,7 +20,7 @@ class StartupView extends StackedView<StartupViewModel> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Image.asset(
-              'assets/icon.png',
+              'assets/logo.png',
               height: 250,
             )
           ],

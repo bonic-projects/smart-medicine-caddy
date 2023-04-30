@@ -1,34 +1,42 @@
 {
   "project_info": {
-    "project_number": "557638764824",
-    "project_id": "canon-6b776",
-    "storage_bucket": "canon-6b776.appspot.com"
+    "project_number": "415548333011",
+    "firebase_url": "https://smart-medical-caddy-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "smart-medical-caddy",
+    "storage_bucket": "smart-medical-caddy.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:557638764824:android:fc881afbebf6c3daadb66d",
+        "mobilesdk_app_id": "1:415548333011:android:01e5fc33ba31943a5bad26",
         "android_client_info": {
-          "package_name": "com.example.canon"
+          "package_name": "com.example.medicine"
         }
       },
       "oauth_client": [
         {
-          "client_id": "557638764824-pb5t68g7r4ur98kc1uqag6hvnpm8olt7.apps.googleusercontent.com",
+          "client_id": "415548333011-gq6hjsu5u6tf38f6b5n6bs8olo6kdvpn.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAPftjEYwuGnrDGUubFJmAkohMD7p4bObY"
+          "current_key": "AIzaSyAPDaEJlY0Amkz-PLpyMDvgO7YaFhc7Rfo"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "557638764824-pb5t68g7r4ur98kc1uqag6hvnpm8olt7.apps.googleusercontent.com",
+              "client_id": "415548333011-gq6hjsu5u6tf38f6b5n6bs8olo6kdvpn.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "415548333011-0b389ro49e4q3juqsnvrn4ucs5qrbpnr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.medicine"
+              }
             }
           ]
         }
